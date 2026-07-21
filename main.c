@@ -231,4 +231,56 @@ printf("%+4d\n",num2);
 printf("%+6d\n",num3);
 
 return 0;
+
 }*/
+
+// precision--
+
+/*#include <stdio.h>
+
+int main(){
+
+float price1 = 19.99;
+float price2 = 1.50;
+float price3 = -100.00;
+
+printf("%f\n",price1);
+printf("%f\n",price2);
+printf("%f\n",price3);
+
+return 0;
+
+}*/
+
+/*#include <stdio.h>
+
+int main(){
+
+float price1 = 19.99;
+float price2 = 1.50;
+float price3 = -100.00;
+
+printf("%.2f\n",price1);
+printf("%.2f\n",price2);
+printf("%.2f\n",price3);
+
+return 0;
+
+}*/
+
+/*#include <stdio.h>
+
+int main(){
+
+float price1 = 19.99;
+float price2 = 1.50;
+float price3 = -100.00;
+
+printf("%+7.2f\n",price1);
+printf("%+7.2f\n",price2);
+printf("%+7.2f\n",price3);
+
+return 0;
+
+}*/
+
