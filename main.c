@@ -120,8 +120,8 @@ int main(){
 
 
 // Format specifiers-- A format specifier in C is a special code (starting with %) used in functions like printf() and scanf() to tell the compiler what type of data to print or read.
-
-#include <stdio.h>
+// optional modifiers ( width, precision, flags)
+/*#include <stdio.h>
 
 int main(){
 
@@ -139,4 +139,96 @@ int main(){
 
    return 0;
    
-}
+}*/
+
+// width--
+
+/*#include <stdio.h>
+
+int main(){
+
+int num1 = 1;
+int num2 = 10;
+int num3 = 100;
+
+printf("%d\n",num1);
+printf("%d\n",num2);
+printf("%d\n",num3);
+
+return 0;
+}*/
+
+/*#include <stdio.h>
+
+int main(){
+
+int num1 = 1;
+int num2 = 10;
+int num3 = 100;
+
+printf("%3d\n",num1);
+printf("%3d\n",num2);
+printf("%3d\n",num3);
+
+return 0;
+}*/
+
+/*#include <stdio.h>
+
+int main(){
+
+int num1 = 1;
+int num2 = 10;
+int num3 = 100;
+
+printf("%4d\n",num1);
+printf("%4d\n",num2);
+printf("%4d\n",num3);
+
+return 0;
+}*/
+
+/*#include <stdio.h>
+
+int main(){
+
+int num1 = 1;
+int num2 = 10;
+int num3 = 100;
+
+printf("%-4d\n",num1);
+printf("%-4d\n",num2);
+printf("%-4d\n",num3);
+
+return 0;
+}*/
+
+/*#include <stdio.h>
+
+int main(){
+
+int num1 = 1;
+int num2 = 10;
+int num3 = 100;
+
+printf("%04d\n",num1);
+printf("%04d\n",num2);
+printf("%04d\n",num3);
+
+return 0;
+}*/
+
+/*#include <stdio.h>
+
+int main(){
+
+int num1 = 1;
+int num2 = 10;
+int num3 = 100;
+
+printf("%-5d\n",num1);
+printf("%+4d\n",num2);
+printf("%+6d\n",num3);
+
+return 0;
+}*/
